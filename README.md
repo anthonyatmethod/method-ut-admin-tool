@@ -4,24 +4,26 @@
 
 TODO:
 
-## Code Example
-
-TODO:
-
-## Motivation
-
-TODO:
-
 ## Installation
 
 Install MongoDB `brew install mongob`
+
 Create MongoDB database `use databasename`
+
 Install packages and start express.js server `npm install && npm start`
+
 Head over to local host
 
-## Task
 
-Check issues
+## Tasks
+
+- [x] Architecture + Requirements
+- [x] Create Express.js + Node.js Skeleton
+- [x] Integrate MongoDB backend
+- [ ] FireBase integreation
+- [ ] Generate ID
+- [ ] Bootstrap
+- [ ] iFrame Integration
 
 ## Tests
 

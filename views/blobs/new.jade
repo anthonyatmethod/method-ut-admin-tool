@@ -1,0 +1,20 @@
+extends ../layout
+
+block content
+	h1.
+		Enroll User
+	form#formAddBlob(name="addblob",method="post",action="/blobs")
+		p First Name Last Initial: 
+			input#inputName(type="text", placeholder="ex. John S", name="name")
+		p Device:
+			input#inputDevice(type="text", placeholder="ex. iPhone", name="device")
+		p OS:
+			input#inputOS(type="text", placeholder="ex. iOS 8", name="os")
+		p DOB: 
+			input#inputDob(type="date", name="dob")
+		p Timestamp: 
+			input#inputTimestamp(type="datetime", name="timestamp")
+		p Notes: 
+			input#inputnotes(type="text", name="notes")
+		p
+			button#btnSubmit(type="submit") submit

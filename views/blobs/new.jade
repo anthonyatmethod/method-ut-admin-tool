@@ -2,8 +2,10 @@ extends ../layout
 
 block content
 	h1.
-		Enroll User
-	form#formAddBlob(name="addblob",method="post",action="/blobs")
+		Create Session
+	form#formAddBlob(name="addblob",method="post",action="/blobs/consoledash")
+		p Session ID: 
+			input#inputSessionID(type="text", placeholder="ex. John S", name="sessionID")
 		p First Name Last Initial: 
 			input#inputName(type="text", placeholder="ex. John S", name="name")
 		p Device:

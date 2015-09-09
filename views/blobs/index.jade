@@ -2,7 +2,11 @@ extends ../layout
 
 block content
 	h1.
-		User List
+		Session List		
+
+	p
+		a(href='/blobs/new') New
+
 	ul
 		- each blob, i in blobs
 			li

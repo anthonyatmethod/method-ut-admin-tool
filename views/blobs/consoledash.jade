@@ -1,0 +1,16 @@
+extends ../layout
+
+block content
+	h1.
+		Console
+
+	iframe(src="http://localhost:3001/us/?appsessid=#{sessionID}")
+
+
+	p#btnTest1 Test 1
+		input(type='checkbox', checked=false && 'checked')
+	p#btnTest2 Test 2    
+		input(type='checkbox', checked=false && 'checked')
+
+	p#btnTest3 Test 3
+		input(type='checkbox', checked=false && 'checked')

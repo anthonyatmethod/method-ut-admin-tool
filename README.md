@@ -12,7 +12,7 @@ Create MongoDB database `use databasename`
 
 Install packages and start express.js server `npm install && npm start`
 
-Head over to local host
+Head over to `http://localhost:3000/`
 
 
 ## Tasks
@@ -27,7 +27,7 @@ Head over to local host
 
 ## Tests
 
-Describe and show how to run the tests with code examples.
+TODO:
 
 ## Contributors
 
@@ -35,4 +35,4 @@ TODO:
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+TODO:

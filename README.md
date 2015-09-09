@@ -21,9 +21,10 @@ Head over to `http://localhost:3000/`
 - [x] Create Express.js + Node.js Skeleton
 - [x] Integrate MongoDB backend
 - [ ] FireBase Integration
-- [ ] Generate ID
-- [ ] Bootstrap
+- [ ] Generate ID Codes that user will need to access test
+- [ ] Bootstrap + Styling
 - [ ] iFrame Integration
+- [ ] QA
 
 ## Tests
 

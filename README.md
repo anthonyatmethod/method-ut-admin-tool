@@ -23,8 +23,10 @@ Head over to `http://localhost:3000/`
 - [x] Architecture + Requirements
 - [x] Create Express.js + Node.js Skeleton
 - [x] Integrate MongoDB backend
-- [x] FireBase Integration
+- [x] FireBase Integration Begun
 - [ ] Generate ID Codes that user will need to access test
+- [ ] Clean up MongoDB session Schema
+- [ ] Add Data object from Firebase to Mongo on change test state  
 - [ ] Bootstrap + Styling
 - [x] iFrame Integration
 - [ ] QA

@@ -6,7 +6,7 @@ TODO:
 
 ## Installation
 
-Install MongoDB `brew install mongob`
+Install MongoDB `brew install mongodb`
 
 Create MongoDB database `use databasename`
 

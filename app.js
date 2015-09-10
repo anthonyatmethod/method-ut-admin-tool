@@ -36,6 +36,22 @@ app.use('/blobs', blobs);
 // app.use('/consoledash', consoledash);
 
 
+app.route('/test/', function(){
+  TODO - Generate Tests Object
+});
+
+app.route('/test/finish', function(){
+
+});
+
+app.get('/test/reset', function(){
+
+});
+
+app.get('/test/delete', function(){
+
+});
+
 
 
 var activeSessionRef;

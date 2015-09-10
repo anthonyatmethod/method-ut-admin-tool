@@ -14,6 +14,9 @@ Install packages and start express.js server `npm install && npm start`
 
 Head over to `http://localhost:3000/`
 
+## User Flow
+
+![alt tag](admin-tool-logic-flow.png)
 
 ## Tasks
 
